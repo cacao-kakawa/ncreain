@@ -65,7 +65,7 @@ const members = [
     {ch:"베이글 에디터 | Bagel editor", url:"https://www.youtube.com/@BagelEditor", desc:"일상 브이로그"}
   ]},
   {gen:3, name:"유경아", role:"3기 · 정회원", channels:[
-    {ch:"라이크아이슬 LIKE ISL", url:"https://www.youtube.com/@LIKE_ISL", desc:"운동, 일상 브이로그"}
+    {ch:"라이크이슬 LIKE ISL", url:"https://www.youtube.com/@LIKE_ISL", desc:"운동, 일상 브이로그"}
   ]},
   {gen:3, name:"김정란", role:"3기 · 정회원", channels:[
     {ch:"김정란채널", url:"https://www.youtube.com/@김정란-x4f", desc:"일상 브이로그"}
