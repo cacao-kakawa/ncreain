@@ -19,8 +19,8 @@ const members = [
   {gen:1, name:"이지형", role:"1기 · 정회원", channels:[
     {ch:"정리못난이", url:"https://www.youtube.com/@happyorganize", desc:"정리못난이에서 정리왕되기"}
   ]},
-  {gen:2, name:"공환영", role:"2기 · 기수장", channels:[
-    {ch:"집나간 앨리", url:"https://www.youtube.com/@ellie_magic", desc:"앨리만의 마법 같은 여행 속으로"}
+  {gen:2, name:"공화영", role:"2기 · 기수장", channels:[
+    {ch:"집나간 엘리", url:"https://www.youtube.com/@ellie_magic", desc:"엘리만의 마법 같은 여행 속으로"}
   ]},
   {gen:2, name:"노태희", role:"2기 · 정회원", channels:[
     {ch:"오늘 the 반짝", url:"https://www.youtube.com/@꿍콕쿡-k4z", desc:"평범한 하루, 그 안의 작은 반짝임을 기록"}
@@ -38,7 +38,7 @@ const members = [
   ]},
   {gen:2, name:"정해선", role:"2기 · 정회원", channels:[
     {ch:"빵우리의 놀이터", url:"https://www.youtube.com/@빵우리의놀이터", desc:"AI 활용 유튜브채널 (음악, 영상, 그림)"},
-    {ch:"sunnyJone-써니제인", url:"https://www.youtube.com/@sunnyJone-써니제인", desc:"써니제인의 여행 일기"}
+    {ch:"sunnyJone-써니제이원", url:"https://www.youtube.com/@sunnyJone-써니제이원", desc:"써니제이원의 여행 일기"}
   ]},
   {gen:3, name:"김욱진", role:"3기 · 정회원", channels:[
     {ch:"안녕! 욱진", url:"https://www.youtube.com/@wookjin_daily", desc:"감성 브이로그 & 팟캐스트"}
