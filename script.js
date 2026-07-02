@@ -40,6 +40,9 @@ const members = [
     {ch:"빵우리의 놀이터", url:"https://www.youtube.com/@빵우리의놀이터", desc:"AI 활용 유튜브채널 (음악, 영상, 그림)"},
     {ch:"sunnyJone-써니제이원", url:"https://www.youtube.com/@sunnyJone-써니제이원", desc:"써니제이원의 여행 일기"}
   ]},
+   {gen:3, name:"김세민", role:"3기 · 기수장", channels:[
+    {ch:"베이글 에디터 | Bagel editor", url:"https://www.youtube.com/@BagelEditor", desc:"일상 브이로그"}
+  ]},
   {gen:3, name:"김욱진", role:"3기 · 정회원", channels:[
     {ch:"안녕! 욱진", url:"https://www.youtube.com/@wookjin_daily", desc:"감성 브이로그 & 팟캐스트"}
   ]},
@@ -61,9 +64,7 @@ const members = [
   {gen:3, name:"이상훈", role:"3기 · 정회원", channels:[
     {ch:"훈훈생생 은퇴이야기", url:"https://www.youtube.com/@hoonretirementstory", desc:"은퇴(인생 후반전)자를 위한 정보채널"}
   ]},
-  {gen:3, name:"김세민", role:"3기 · 기수장", channels:[
-    {ch:"베이글 에디터 | Bagel editor", url:"https://www.youtube.com/@BagelEditor", desc:"일상 브이로그"}
-  ]},
+ 
   {gen:3, name:"유경아", role:"3기 · 정회원", channels:[
     {ch:"라이크이슬 LIKE ISL", url:"https://www.youtube.com/@LIKE_ISL", desc:"운동, 일상 브이로그"}
   ]},
