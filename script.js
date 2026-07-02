@@ -53,7 +53,7 @@ const members = [
     {ch:"렛츠드럼", url:"https://www.youtube.com/@letsdrum", desc:"렛츠드럼 공식 채널"}
   ]},
   {gen:3, name:"이채영", role:"3기 · 정회원", channels:[
-    {ch:"자캉로그", url:"https://www.youtube.com/@자캉이-f9c", desc:"일상 브이로그"}
+    {ch:"자깡로그", url:"https://www.youtube.com/@자깡이-f9c", desc:"일상 브이로그"}
   ]},
   {gen:3, name:"최유환", role:"3기 · 정회원", channels:[
     {ch:"숲과놀자", url:"https://www.youtube.com/@forestwith", desc:"숲 전문 채널"}
