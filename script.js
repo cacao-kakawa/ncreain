@@ -74,7 +74,12 @@ const members = [
 ];
 
 const genColor = {1:"var(--c1)",2:"var(--c2)",3:"var(--c3)"};
+const genTextColor = {1:"var(--c1)",2:"#A6790A",3:"var(--c3)"};
 const genLabel = {1:"1기",2:"2기",3:"3기"};
+
+function displayRole(role, gen){
+  return role.includes('정회원') ? genLabel[gen] : role;
+}
 
 const grid = document.getElementById('grid');
 const emptyMsg = document.getElementById('emptyMsg');
@@ -101,16 +106,20 @@ function render(){
 
   grid.innerHTML = cards.map(c=>{
     const color = genColor[c.gen];
+    const textColor = genTextColor[c.gen];
     const avatarHtml = c.avatar
       ? `<img class="avatar" src="${c.avatar}" alt="" loading="lazy">`
-      : `<span class="avatar avatar-fallback">${c.ch.charAt(0)}</span>`;
+      : `<span class="avatar avatar-fallback${c.gen===2?' on-yellow':''}">${c.ch.charAt(0)}</span>`;
     return `
     <div class="card-slot">
-      <a class="card" style="--band:${color}" href="${c.url}" target="_blank" rel="noopener">
-        <span class="badge${c.gen===2?' on-yellow':''}" style="--band:${color}">${genLabel[c.gen]}</span>
-        ${avatarHtml}
-        <p class="role">${c.role}</p>
-        <p class="channel-name">${c.ch}</p>
+      <a class="card" style="--band:${color};--band-text:${textColor}" href="${c.url}" target="_blank" rel="noopener">
+        <div class="card-head">
+          ${avatarHtml}
+          <div class="card-title">
+            <p class="channel-name">${c.ch}</p>
+            <p class="role">${displayRole(c.role, c.gen)}</p>
+          </div>
+        </div>
         <p class="desc">${c.desc}</p>
       </a>
     </div>`;
