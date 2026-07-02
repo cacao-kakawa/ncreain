@@ -7,7 +7,7 @@ const members = [
     {ch:"은빛남지니", url:"https://www.youtube.com/@은빛남지니", desc:"조기은퇴 후 일상을 공유하는 v-log"}
   ]},
   {gen:1, name:"김지나", role:"1기 · 서기", channels:[
-    {ch:"하농물텃 Catkko garden", url:"https://www.youtube.com/@Farmer_Catkko", desc:"게으른 농부 켓꼬(Catkko)의 텃밭 이야기"},
+    {ch:"하농울텃 Catkko garden", url:"https://www.youtube.com/@Farmer_Catkko", desc:"게으른 농부 켓꼬(Catkko)의 텃밭 이야기"},
     {ch:"공원냥모리 MORI", url:"https://www.youtube.com/@FromMORI", desc:"공원에서 납치된 고양이 '모리' 이야기"}
   ]},
   {gen:1, name:"임지연", role:"1기 · SNS관리", channels:[
@@ -23,10 +23,10 @@ const members = [
     {ch:"집나간 엘리", url:"https://www.youtube.com/@ellie_magic", desc:"엘리만의 마법 같은 여행 속으로"}
   ]},
   {gen:2, name:"노태희", role:"2기 · 정회원", channels:[
-    {ch:"오늘 the 반짝", url:"https://www.youtube.com/@꿍콕쿡-k4z", desc:"평범한 하루, 그 안의 작은 반짝임을 기록"}
+    {ch:"오늘 the 반짝", url:"https://www.youtube.com/@꽁쿡쿡-k4z", desc:"평범한 하루, 그 안의 작은 반짝임을 기록"}
   ]},
   {gen:2, name:"박시원", role:"2기 · 정회원", channels:[
-    {ch:"parksisis", url:"https://www.youtube.com/@parksisis", desc:"삼남매와 엄마의 말레이시아 정착기"},
+    {ch:"parksisis", url:"https://www.youtube.com/@parksisisi", desc:"삼남매와 엄마의 말레이시아 정착기"},
     {ch:"시원쏘콜", url:"https://www.youtube.com/@siwon_socool", desc:"시원 아줌마의 인생 성장 채널"}
   ]},
   {gen:2, name:"방재샘", role:"2기 · 정회원", channels:[
@@ -61,7 +61,7 @@ const members = [
   {gen:3, name:"이상훈", role:"3기 · 정회원", channels:[
     {ch:"훈훈생생 은퇴이야기", url:"https://www.youtube.com/@hoonretirementstory", desc:"은퇴(인생 후반전)자를 위한 정보채널"}
   ]},
-  {gen:3, name:"김세민", role:"3기 · 정회원", channels:[
+  {gen:3, name:"김세민", role:"3기 · 기수장", channels:[
     {ch:"베이글 에디터 | Bagel editor", url:"https://www.youtube.com/@BagelEditor", desc:"일상 브이로그"}
   ]},
   {gen:3, name:"유경아", role:"3기 · 정회원", channels:[
